@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-title-large {
+    @apply text-titleLarge font-regular leading-titleLarge;
+  }
+}
